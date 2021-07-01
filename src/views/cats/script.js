@@ -1,7 +1,10 @@
 import { mapState } from "vuex";
+import PetTable from "@/components/PetTable.vue";
 
 export default {
-  name: "Cats",
+  components: {
+    PetTable,
+  },
   data() {
     return {};
   },
